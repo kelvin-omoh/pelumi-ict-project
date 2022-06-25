@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  background-image: url(../CODE/Omo\ Ope.jpg);
+  background-size: cover;
+  color: beige;
+}
+image{
+  opacity: 0.5;
+}
