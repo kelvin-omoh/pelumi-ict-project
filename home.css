@@ -1,3 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(./1968_Dodge_Ice_Charger_F8.avif);
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -30,13 +49,10 @@ body, html {
   height: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .bg-image {
   /* The image used */
-  background-image: url("1968_Dodge_Ice_Charger_F8.avif");
+ 
   background-size: cover;
 
   /* Add the blur effect */
